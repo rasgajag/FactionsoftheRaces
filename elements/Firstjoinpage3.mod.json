@@ -1,0 +1,197 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 300,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "5456d36c6106729.png",
+          "use1Xscale": false,
+          "name": "5456d36c6106729.png",
+          "x": -3,
+          "y": -46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Last Page",
+          "onClick": {
+            "name": "Lastpage2"
+          },
+          "width": 70,
+          "height": 20,
+          "name": "Last Page",
+          "x": 57,
+          "y": 203
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Netherborn",
+          "onClick": {
+            "name": "NetherbornfirstJoin"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Netherborn",
+          "x": 105,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Chicken",
+          "onClick": {
+            "name": "ChickenFirstJoin"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Chicken",
+          "x": 276,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Powers:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Powers:",
+          "x": 114,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "ColdScared",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "ColdScared",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "LavaSwim",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "LavaSwim",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "HotSpeed",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "HotSpeed",
+          "x": 106,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Powers:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Powers:",
+          "x": 285,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Scared",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Scared",
+          "x": 276,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "RegSkin",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "RegSkin",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Everything",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Everything",
+          "x": 276,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Of",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Of",
+          "x": 276,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Why would you choose this?",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Why would you choose this?",
+          "x": 243,
+          "y": 112
+        }
+      }
+    ]
+  }
+}

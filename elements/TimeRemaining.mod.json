@@ -1,0 +1,135 @@
+{
+  "_fv": 18,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Power Cooldown",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Power Cooldown",
+          "x": 343,
+          "y": 213
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "6 Sec",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "SixSec"
+          },
+          "name": "6 Sec",
+          "x": 385,
+          "y": 221
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "5 Sec",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "FiveSec"
+          },
+          "name": "5 Sec",
+          "x": 385,
+          "y": 221
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "4 Sec",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "FourSec"
+          },
+          "name": "4 Sec",
+          "x": 385,
+          "y": 221
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "3 Sec",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ThreeSec"
+          },
+          "name": "3 Sec",
+          "x": 385,
+          "y": 221
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2 Sec",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "TwoSec"
+          },
+          "name": "2 Sec",
+          "x": 385,
+          "y": 221
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1 Sec",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Onesec"
+          },
+          "name": "1 Sec",
+          "x": 385,
+          "y": 221
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "0 Sec",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Zerosec"
+          },
+          "name": "0 Sec",
+          "x": 385,
+          "y": 221
+        }
+      }
+    ],
+    "baseTexture": ""
+  }
+}

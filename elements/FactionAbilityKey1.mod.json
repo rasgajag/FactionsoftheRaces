@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "G",
+    "keyBindingName": "Faction Ability Key 1",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "FactionAbilityKey1OnKeyPressed"
+    }
+  }
+}

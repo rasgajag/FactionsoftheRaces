@@ -1,0 +1,210 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 300,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "5456d36c6106729.png",
+          "use1Xscale": false,
+          "name": "5456d36c6106729.png",
+          "x": -3,
+          "y": -46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next Page",
+          "onClick": {
+            "name": "Nextpagebutton"
+          },
+          "width": 70,
+          "height": 20,
+          "name": "Next Page",
+          "x": 312,
+          "y": 206
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Elfen",
+          "onClick": {
+            "name": "ElfenSetFirstjoin"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Elfen",
+          "x": 105,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Dwarfen",
+          "onClick": {
+            "name": "Dwarfenfirstjoin"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Dwarfen",
+          "x": 276,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Powers:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Powers:",
+          "x": 114,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nimble arms",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Nimble arms",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Faster Legs",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Faster Legs",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "SoftSkin",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "SoftSkin",
+          "x": 106,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Powers:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Powers:",
+          "x": 285,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Toughskin",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Toughskin",
+          "x": 276,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Shortarms",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Shortarms",
+          "x": 276,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Thin",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Thin",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Bigger",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Bigger",
+          "x": 276,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Shortlegs",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Shortlegs",
+          "x": 276,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ancestory",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Ancestory",
+          "x": 276,
+          "y": 116
+        }
+      }
+    ]
+  }
+}

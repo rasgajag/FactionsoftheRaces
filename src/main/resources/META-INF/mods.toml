@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="factions_of_the_races"
+version="1.0.0"
+displayName="Factions of the Races"
+credits="Goodluck Have Fun!"
+displayURL="https://mcreator.net"
+authors="Ras"
+description='''
+Factions of the Races
+'''
+
+[[dependencies.factions_of_the_races]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.factions_of_the_races]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.1.0]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

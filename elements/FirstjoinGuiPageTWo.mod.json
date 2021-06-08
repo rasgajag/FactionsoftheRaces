@@ -1,0 +1,185 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 300,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "5456d36c6106729.png",
+          "use1Xscale": false,
+          "name": "5456d36c6106729.png",
+          "x": -3,
+          "y": -46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next Page",
+          "onClick": {
+            "name": "Nextpage2"
+          },
+          "width": 70,
+          "height": 20,
+          "name": "Next Page",
+          "x": 303,
+          "y": 206
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Human",
+          "onClick": {
+            "name": "HumanFirstJoin"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Human",
+          "x": 105,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Centar",
+          "onClick": {
+            "name": "CentarFirstJoin"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Centar",
+          "x": 276,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Powers:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Powers:",
+          "x": 114,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You're Boring",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You're Boring",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Powers:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Powers:",
+          "x": 285,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "HalfBody",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "HalfBody",
+          "x": 276,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Start Bow",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Start Bow",
+          "x": 276,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Thinskin",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Thinskin",
+          "x": 276,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Horse Speed",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Horse Speed",
+          "x": 276,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Heat Scared",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Heat Scared",
+          "x": 276,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "LastPage",
+          "onClick": {
+            "name": "LastPage"
+          },
+          "width": 65,
+          "height": 20,
+          "name": "LastPage",
+          "x": 60,
+          "y": 206
+        }
+      }
+    ]
+  }
+}
