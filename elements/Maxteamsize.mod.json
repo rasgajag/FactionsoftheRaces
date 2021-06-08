@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "maxteamsize",
+    "description": "changes the team size in wars",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 2
+  }
+}

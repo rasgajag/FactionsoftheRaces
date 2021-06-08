@@ -1,0 +1,7 @@
+{
+  "_fv": 18,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"world_send_chat\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">A world war has been called good luck have fun! do /warteam to choose a team!</field></block></value><next><block type=\"variables_set_logic\"><field name=\"VAR\">global:War</field><value name=\"VAL\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value><next><block type=\"call_procedure\"><field name=\"procedure\">Teamcreate</field></block></next></block></next></block></next></block></xml>"
+  }
+}

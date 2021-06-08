@@ -1,0 +1,109 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 200,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "You are at war",
+          "color": {
+            "value": -52429,
+            "falpha": 0.0
+          },
+          "name": "You are at war",
+          "x": 181,
+          "y": 100
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Team 1",
+          "onClick": {
+            "name": "Team1"
+          },
+          "displayCondition": {
+            "name": "Teamjoinlimit"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Team 1",
+          "x": 136,
+          "y": 55
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Team 2",
+          "onClick": {
+            "name": "Team2"
+          },
+          "displayCondition": {
+            "name": "Teamjoin2"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Team 2",
+          "x": 235,
+          "y": 55
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Team 3",
+          "onClick": {
+            "name": "Team3"
+          },
+          "displayCondition": {
+            "name": "Teamjoin3"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Team 3",
+          "x": 136,
+          "y": 154
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Team 4",
+          "onClick": {
+            "name": "Team4"
+          },
+          "displayCondition": {
+            "name": "Teamjoin4"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Team 4",
+          "x": 235,
+          "y": 154
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " <x> <y> <z>",
+          "color": {
+            "value": -3407821,
+            "falpha": 0.0
+          },
+          "name": " <x> <y> <z>",
+          "x": 181,
+          "y": 127
+        }
+      }
+    ]
+  }
+}
