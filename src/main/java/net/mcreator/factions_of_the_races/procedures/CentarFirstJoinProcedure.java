@@ -31,5 +31,19 @@ public class CentarFirstJoinProcedure extends FactionsOfTheRacesModElements.ModE
 				capability.syncPlayerVariables(entity);
 			});
 		}
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+						"give @s bow");
+			}
+		}
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+						"give @s minecraft:arrow 64");
+			}
+		}
 	}
 }

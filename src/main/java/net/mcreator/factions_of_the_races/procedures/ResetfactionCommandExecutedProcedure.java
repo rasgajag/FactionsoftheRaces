@@ -84,5 +84,33 @@ public class ResetfactionCommandExecutedProcedure extends FactionsOfTheRacesModE
 				capability.syncPlayerVariables(entity);
 			});
 		}
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+						"attribute @s forge:reach_distance base set 5");
+			}
+		}
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+						"attribute @s minecraft:generic.movement_speed base set 0.1");
+			}
+		}
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+						"attribute @s minecraft:generic.max_health base set 20");
+			}
+		}
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+						"attribute @s minecraft:generic.armor base set 0");
+			}
+		}
 	}
 }
