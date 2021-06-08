@@ -8,6 +8,7 @@ import net.minecraft.scoreboard.Score;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.factions_of_the_races.world.PowerkeyGameRule;
 import net.mcreator.factions_of_the_races.FactionsOfTheRacesModVariables;
 import net.mcreator.factions_of_the_races.FactionsOfTheRacesModElements;
 import net.mcreator.factions_of_the_races.FactionsOfTheRacesMod;
@@ -52,92 +53,94 @@ public class FactionAbilityKey1OnKeyPressedProcedure extends FactionsOfTheRacesM
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if (((new Object() {
-			public int getScore(String score) {
-				if (entity instanceof PlayerEntity) {
-					Scoreboard _sc = ((PlayerEntity) entity).getWorldScoreboard();
-					ScoreObjective _so = _sc.getObjective(score);
-					if (_so != null) {
-						Score _scr = _sc.getOrCreateScore(((PlayerEntity) entity).getScoreboardName(), _so);
-						return _scr.getScorePoints();
+		if (((world.getWorldInfo().getGameRulesInstance().getBoolean(PowerkeyGameRule.gamerule)) == (true))) {
+			if (((new Object() {
+				public int getScore(String score) {
+					if (entity instanceof PlayerEntity) {
+						Scoreboard _sc = ((PlayerEntity) entity).getWorldScoreboard();
+						ScoreObjective _so = _sc.getObjective(score);
+						if (_so != null) {
+							Score _scr = _sc.getOrCreateScore(((PlayerEntity) entity).getScoreboardName(), _so);
+							return _scr.getScorePoints();
+						}
+					}
+					return 0;
+				}
+			}.getScore("timer")) == 0)) {
+				if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new FactionsOfTheRacesModVariables.PlayerVariables())).Factionnumber) == 1)) {
+					{
+						Map<String, Object> $_dependencies = new HashMap<>();
+						$_dependencies.put("entity", entity);
+						$_dependencies.put("x", x);
+						$_dependencies.put("y", y);
+						$_dependencies.put("z", z);
+						$_dependencies.put("world", world);
+						ElfpowerkeypressedProcedure.executeProcedure($_dependencies);
+					}
+					{
+						Map<String, Object> $_dependencies = new HashMap<>();
+						$_dependencies.put("entity", entity);
+						TimerpotionluckstartProcedure.executeProcedure($_dependencies);
 					}
 				}
-				return 0;
-			}
-		}.getScore("timer")) == 0)) {
-			if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new FactionsOfTheRacesModVariables.PlayerVariables())).Factionnumber) == 1)) {
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					$_dependencies.put("x", x);
-					$_dependencies.put("y", y);
-					$_dependencies.put("z", z);
-					$_dependencies.put("world", world);
-					ElfpowerkeypressedProcedure.executeProcedure($_dependencies);
+				if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new FactionsOfTheRacesModVariables.PlayerVariables())).Factionnumber) == 2)) {
+					{
+						Map<String, Object> $_dependencies = new HashMap<>();
+						$_dependencies.put("entity", entity);
+						DrawnFactionpower1pressedProcedure.executeProcedure($_dependencies);
+					}
+					{
+						Map<String, Object> $_dependencies = new HashMap<>();
+						$_dependencies.put("entity", entity);
+						TimerpotionluckstartProcedure.executeProcedure($_dependencies);
+					}
 				}
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					TimerpotionluckstartProcedure.executeProcedure($_dependencies);
+				if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new FactionsOfTheRacesModVariables.PlayerVariables())).Factionnumber) == 3)) {
+					if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
+						((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You're a human you have no power, you DumDum"), (true));
+					}
 				}
-			}
-			if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new FactionsOfTheRacesModVariables.PlayerVariables())).Factionnumber) == 2)) {
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					DrawnFactionpower1pressedProcedure.executeProcedure($_dependencies);
+				if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new FactionsOfTheRacesModVariables.PlayerVariables())).Factionnumber) == 4)) {
+					{
+						Map<String, Object> $_dependencies = new HashMap<>();
+						$_dependencies.put("entity", entity);
+						CentarPowerKEy1pressedProcedure.executeProcedure($_dependencies);
+					}
+					{
+						Map<String, Object> $_dependencies = new HashMap<>();
+						$_dependencies.put("entity", entity);
+						TimerpotionluckstartProcedure.executeProcedure($_dependencies);
+					}
 				}
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					TimerpotionluckstartProcedure.executeProcedure($_dependencies);
+				if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new FactionsOfTheRacesModVariables.PlayerVariables())).Factionnumber) == 5)) {
+					{
+						Map<String, Object> $_dependencies = new HashMap<>();
+						$_dependencies.put("entity", entity);
+						NetherbornFActionPowerKey1PressedProcedure.executeProcedure($_dependencies);
+					}
+					{
+						Map<String, Object> $_dependencies = new HashMap<>();
+						$_dependencies.put("entity", entity);
+						TimerpotionluckstartProcedure.executeProcedure($_dependencies);
+					}
 				}
-			}
-			if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new FactionsOfTheRacesModVariables.PlayerVariables())).Factionnumber) == 3)) {
-				if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-					((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You're a human you have no power, you DumDum"), (false));
-				}
-			}
-			if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new FactionsOfTheRacesModVariables.PlayerVariables())).Factionnumber) == 4)) {
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					CentarPowerKEy1pressedProcedure.executeProcedure($_dependencies);
-				}
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					TimerpotionluckstartProcedure.executeProcedure($_dependencies);
-				}
-			}
-			if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new FactionsOfTheRacesModVariables.PlayerVariables())).Factionnumber) == 5)) {
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					NetherbornFActionPowerKey1PressedProcedure.executeProcedure($_dependencies);
-				}
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					TimerpotionluckstartProcedure.executeProcedure($_dependencies);
-				}
-			}
-			if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new FactionsOfTheRacesModVariables.PlayerVariables())).Factionnumber) == 6)) {
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					ChickenPowerKey1PressedProcedure.executeProcedure($_dependencies);
-				}
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					TimerpotionluckstartProcedure.executeProcedure($_dependencies);
+				if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new FactionsOfTheRacesModVariables.PlayerVariables())).Factionnumber) == 6)) {
+					{
+						Map<String, Object> $_dependencies = new HashMap<>();
+						$_dependencies.put("entity", entity);
+						ChickenPowerKey1PressedProcedure.executeProcedure($_dependencies);
+					}
+					{
+						Map<String, Object> $_dependencies = new HashMap<>();
+						$_dependencies.put("entity", entity);
+						TimerpotionluckstartProcedure.executeProcedure($_dependencies);
+					}
 				}
 			}
 		}

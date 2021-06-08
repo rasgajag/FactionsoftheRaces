@@ -1,4 +1,6 @@
 {
+  "gamerule.powerkey.description": "Used to deturmine wethier or not power keys can be used Defult: True",
   "key.factions_of_the_races.faction_ability_key_1": "Faction Ability Key 1",
+  "gamerule.powerkey": "power keys enabled",
   "key.battling_factions.faction_ability_key_1": "Faction Ability Key 1"
 }
