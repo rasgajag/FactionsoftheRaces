@@ -684,6 +684,24 @@
         ]
       },
       "path": "~/NetherbornFactionPowersEct"
+    },
+    {
+      "name": "Chickenpower",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chickenpower",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ChickenFactionPowersEct"
     }
   ],
   "variable_elements": [
