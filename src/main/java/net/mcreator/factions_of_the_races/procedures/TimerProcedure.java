@@ -48,7 +48,7 @@ public class TimerProcedure extends FactionsOfTheRacesModElements.ModElement {
 				}
 				return 0;
 			}
-		}.check(entity)) <= 100)) {
+		}.check(entity)) <= 110)) {
 			entity.getPersistentData().putDouble("timer", (new Object() {
 				int check(Entity _entity) {
 					if (_entity instanceof LivingEntity) {

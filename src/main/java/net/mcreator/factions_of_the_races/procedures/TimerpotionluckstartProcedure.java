@@ -24,6 +24,6 @@ public class TimerpotionluckstartProcedure extends FactionsOfTheRacesModElements
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LUCK, (int) 100, (int) 1, (false), (false)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LUCK, (int) 110, (int) 1, (false), (false)));
 	}
 }

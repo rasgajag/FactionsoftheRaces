@@ -518,149 +518,6 @@
       }
     },
     {
-      "name": "Zerosec",
-      "type": "procedure",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "zerosec",
-      "metadata": {
-        "return_type": "LOGIC",
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Timer"
-    },
-    {
-      "name": "Onesec",
-      "type": "procedure",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "onesec",
-      "metadata": {
-        "return_type": "LOGIC",
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Timer"
-    },
-    {
-      "name": "TwoSec",
-      "type": "procedure",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "two_sec",
-      "metadata": {
-        "return_type": "LOGIC",
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Timer"
-    },
-    {
-      "name": "ThreeSec",
-      "type": "procedure",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "three_sec",
-      "metadata": {
-        "return_type": "LOGIC",
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Timer"
-    },
-    {
-      "name": "FourSec",
-      "type": "procedure",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "four_sec",
-      "metadata": {
-        "return_type": "LOGIC",
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Timer"
-    },
-    {
-      "name": "FiveSec",
-      "type": "procedure",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "five_sec",
-      "metadata": {
-        "return_type": "LOGIC",
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Timer"
-    },
-    {
-      "name": "SixSec",
-      "type": "procedure",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "six_sec",
-      "metadata": {
-        "return_type": "LOGIC",
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Timer"
-    },
-    {
-      "name": "TimeRemaining",
-      "type": "overlay",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "time_remaining",
-      "path": "~/Timer"
-    },
-    {
       "name": "ElfPowers",
       "type": "procedure",
       "sortid": 30,
@@ -722,6 +579,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "timerstart",
+      "path": "~/Timer"
+    },
+    {
+      "name": "Timertimemessage",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "timertimemessage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
       "path": "~/Timer"
     }
   ],
