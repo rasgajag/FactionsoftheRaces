@@ -218,6 +218,7 @@ public class FactionsOfTheRacesModVariables {
 			nbt.putDouble("Factionnumber", instance.Factionnumber);
 			nbt.putBoolean("FirstJoin", instance.FirstJoin);
 			nbt.putDouble("PowerTime", instance.PowerTime);
+			nbt.putDouble("Teamnumber", instance.Teamnumber);
 			return nbt;
 		}
 
@@ -227,6 +228,7 @@ public class FactionsOfTheRacesModVariables {
 			instance.Factionnumber = nbt.getDouble("Factionnumber");
 			instance.FirstJoin = nbt.getBoolean("FirstJoin");
 			instance.PowerTime = nbt.getDouble("PowerTime");
+			instance.Teamnumber = nbt.getDouble("Teamnumber");
 		}
 	}
 
@@ -234,6 +236,7 @@ public class FactionsOfTheRacesModVariables {
 		public double Factionnumber = 0;
 		public boolean FirstJoin = false;
 		public double PowerTime = 0;
+		public double Teamnumber = 0;
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
 				FactionsOfTheRacesMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) entity),
@@ -269,6 +272,7 @@ public class FactionsOfTheRacesModVariables {
 		clone.Factionnumber = original.Factionnumber;
 		clone.FirstJoin = original.FirstJoin;
 		clone.PowerTime = original.PowerTime;
+		clone.Teamnumber = original.Teamnumber;
 		if (!event.isWasDeath()) {
 		}
 	}
@@ -296,6 +300,7 @@ public class FactionsOfTheRacesModVariables {
 					variables.Factionnumber = message.data.Factionnumber;
 					variables.FirstJoin = message.data.FirstJoin;
 					variables.PowerTime = message.data.PowerTime;
+					variables.Teamnumber = message.data.Teamnumber;
 				}
 			});
 			context.setPacketHandled(true);

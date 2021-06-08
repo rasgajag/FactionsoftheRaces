@@ -76,5 +76,12 @@ public class TeamcreateProcedure extends FactionsOfTheRacesModElements.ModElemen
 						"team modify Team4 color gold");
 			}
 		}
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+						"scoreboard objectives add TeamDeaths dummy");
+			}
+		}
 	}
 }

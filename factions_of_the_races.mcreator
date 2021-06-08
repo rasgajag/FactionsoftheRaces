@@ -1002,6 +1002,59 @@
       "ids": {},
       "registry_name": "endwar",
       "path": "~/war"
+    },
+    {
+      "name": "Teamlife",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teamlife",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/war"
+    },
+    {
+      "name": "Warendauto",
+      "type": "gamerule",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warendauto",
+      "metadata": {
+        "type": "number"
+      },
+      "path": "~/war"
+    },
+    {
+      "name": "Autoendwar",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "autoendwar",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/war"
     }
   ],
   "variable_elements": [
@@ -1052,16 +1105,24 @@
       "type": "number",
       "scope": "map",
       "value": "0"
+    },
+    {
+      "name": "Teamnumber",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "gamerule.powerkey.description": "Used to deturmine wethier or not power keys can be used Defult: True",
+      "gamerule.warendauto.description": "What number of team deatsh the war ends on",
       "gamerule.maxteamsize": "maxteamsize",
       "key.factions_of_the_races.faction_ability_key_1": "Faction Ability Key 1",
       "gamerule.powerkey": "power keys enabled",
       "gamerule.maxteamsize.description": "changes the team size in wars",
+      "gamerule.warendauto": "Auto End war",
       "key.battling_factions.faction_ability_key_1": "Faction Ability Key 1"
     }
   },

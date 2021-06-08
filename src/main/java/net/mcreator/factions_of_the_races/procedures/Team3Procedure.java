@@ -3,6 +3,7 @@ package net.mcreator.factions_of_the_races.procedures;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.factions_of_the_races.FactionsOfTheRacesModVariables;
 import net.mcreator.factions_of_the_races.FactionsOfTheRacesModElements;
 import net.mcreator.factions_of_the_races.FactionsOfTheRacesMod;
 
@@ -30,5 +31,12 @@ public class Team3Procedure extends FactionsOfTheRacesModElements.ModElement {
 		}
 		if (entity instanceof PlayerEntity)
 			((PlayerEntity) entity).closeScreen();
+		{
+			double _setval = (double) 3;
+			entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+				capability.Teamnumber = _setval;
+				capability.syncPlayerVariables(entity);
+			});
+		}
 	}
 }
