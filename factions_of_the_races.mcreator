@@ -614,6 +614,24 @@
       "metadata": {
         "type": "boolean"
       }
+    },
+    {
+      "name": "Drawfpowers",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drawfpowers",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/DrawfnFactionPowersEct"
     }
   ],
   "variable_elements": [
