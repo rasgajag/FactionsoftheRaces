@@ -677,6 +677,52 @@
         ]
       },
       "path": "~/ElfenFactonPowersEct"
+    },
+    {
+      "name": "Timejoin",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "timejoin",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Timer"
+    },
+    {
+      "name": "Timerpotionluckstart",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "timerpotionluckstart",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Timer"
+    },
+    {
+      "name": "Timerstart",
+      "type": "command",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "timerstart",
+      "path": "~/Timer"
     }
   ],
   "variable_elements": [

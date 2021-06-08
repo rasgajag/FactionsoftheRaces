@@ -79,7 +79,7 @@ public class FactionAbilityKey1OnKeyPressedProcedure extends FactionsOfTheRacesM
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					TimerProcedure.executeProcedure($_dependencies);
+					TimerpotionluckstartProcedure.executeProcedure($_dependencies);
 				}
 			}
 			if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -92,7 +92,7 @@ public class FactionAbilityKey1OnKeyPressedProcedure extends FactionsOfTheRacesM
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					TimerProcedure.executeProcedure($_dependencies);
+					TimerpotionluckstartProcedure.executeProcedure($_dependencies);
 				}
 			}
 			if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -111,7 +111,7 @@ public class FactionAbilityKey1OnKeyPressedProcedure extends FactionsOfTheRacesM
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					TimerProcedure.executeProcedure($_dependencies);
+					TimerpotionluckstartProcedure.executeProcedure($_dependencies);
 				}
 			}
 			if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -124,7 +124,7 @@ public class FactionAbilityKey1OnKeyPressedProcedure extends FactionsOfTheRacesM
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					TimerProcedure.executeProcedure($_dependencies);
+					TimerpotionluckstartProcedure.executeProcedure($_dependencies);
 				}
 			}
 			if ((((entity.getCapability(FactionsOfTheRacesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -137,7 +137,7 @@ public class FactionAbilityKey1OnKeyPressedProcedure extends FactionsOfTheRacesM
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					TimerProcedure.executeProcedure($_dependencies);
+					TimerpotionluckstartProcedure.executeProcedure($_dependencies);
 				}
 			}
 		}
